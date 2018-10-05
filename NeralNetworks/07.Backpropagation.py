@@ -30,9 +30,9 @@ print (hidden_layer_output)
 output_layer_in = np.dot(hidden_layer_output, weights_hidden_output)
 output = sigmoid(output_layer_in)
 print ("Output Layer Input")
-print output_layer_in
+print (output_layer_in)
 print ("Output Layer Output")
-print output
+print (output)
 ## Backwards pass
 ## TODO: Calculate output error
 error = target - output
