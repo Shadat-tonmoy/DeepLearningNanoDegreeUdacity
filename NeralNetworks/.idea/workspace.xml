@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c25eff-3800-4bb6-b245-cd19eb6e052e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/firstNeuralNetwork/actual_answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstNeuralNetwork/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstNeuralNetwork/Your_first_neural_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/firstNeuralNetwork/Your_first_neural_network.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstNeuralNetwork/my_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstNeuralNetwork/my_answers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,10 +47,11 @@
     <session id="91382450">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -105,10 +102,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/my_answers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="185" column="14" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+            <state relative-caret-position="22">
+              <caret line="117" column="39" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
               <folding>
-                <marker date="1538895552559" expanded="true" signature="1451:1460" ph="..." />
+                <marker date="1538979991884" expanded="true" signature="1451:1460" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/actual_answer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1539">
-              <caret line="135" column="40" lean-forward="true" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
+            <state relative-caret-position="2025">
+              <caret line="135" column="40" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -126,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -381,8 +378,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-2" width="1366" height="770" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24497394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -465,9 +461,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/Your_first_neural_network.py" />
-    <entry file="file://$USER_HOME$/Downloads/Your_first_neural_network.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Your_first_neural_network.py" />
     <entry file="file://$PROJECT_DIR$/backpropagationInAdmissionData/data_prep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -485,16 +479,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07.Backpropagation.py">
+    <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/actual_answer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="2025">
+          <caret line="135" column="40" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="150">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -502,19 +496,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/actual_answer.py">
+    <entry file="file://$PROJECT_DIR$/07.Backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="135" column="40" lean-forward="true" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
+        <state relative-caret-position="510">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firstNeuralNetwork/my_answers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="185" column="14" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+        <state relative-caret-position="22">
+          <caret line="117" column="39" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
           <folding>
-            <marker date="1538895552559" expanded="true" signature="1451:1460" ph="..." />
+            <marker date="1538979991884" expanded="true" signature="1451:1460" ph="..." />
           </folding>
         </state>
       </provider>
