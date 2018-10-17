@@ -206,7 +206,9 @@ class SentimentNetwork:
             self.layer_0[0][self.word2index[word]] = word_freq_counter[word]
         # print(self.word2index)
         # print("TotalWordInReview ",len(review.split(" ")))
-        print(self.layer_0[0])
+        # print(self.layer_0)
+        print("Input Layer Shape ",self.layer_0.shape)
+        print("Input to hidden layer weight shape ",self.weights_0_1.shape)
 
     def get_target_for_label(self, label):
         # TODO: Copy the code you wrote for get_target_for_label
@@ -244,10 +246,49 @@ class SentimentNetwork:
             # TODO: Get the next review and its correct label
             review = training_reviews[i]
             label = training_labels[i]
+            output = np.array(self.get_target_for_label(label))
+            output = output.reshape((1,1))
 
-            print(review)
-            print(label)
+            # print(review)
+            # print(label)
             self.update_input_layer(review)
+
+            hidden_layer_input = np.dot(self.layer_0,self.weights_0_1)
+            print("Hidden Layer Input ",hidden_layer_input,"\nShape ",hidden_layer_input.shape)
+            output_layer_input = np.dot(hidden_layer_input,self.weights_1_2)
+            print("Output Layer Input ", output_layer_input, "\nShape ", output_layer_input.shape)
+            output_layer_output = self.sigmoid(output_layer_input)
+            print("Output Layer output ", output_layer_output, "\nShape ", output_layer_output.shape)
+            print("Actual output ", output, "\nShape ", output.shape)
+            output_layer_error = output_layer_output - output
+            print("Output Layer Error ", output_layer_error, "\nShape ", output_layer_error.shape)
+            output_layer_error_term = output_layer_error * self.sigmoid_output_2_derivative(output_layer_output)
+            print("Output Layer Error Term ", output_layer_error_term, "\nShape ", output_layer_error_term.shape)
+
+            print("Weight Shape ",self.weights_1_2.shape)
+            print("Output Layer Error Term Shape ",output_layer_error_term.shape)
+            hidden_layer_error = np.dot(output_layer_error_term,self.weights_1_2.T)
+            print("Hidden layer error ",hidden_layer_error," Shape ",hidden_layer_error.shape)
+            hidden_layer_error_term = hidden_layer_error
+            print("Hidden layer error term",hidden_layer_error_term, " Shape ", hidden_layer_error_term.shape)
+
+            delta_weight_h_o = np.zeros((self.hidden_nodes,self.output_nodes))
+            print("Hidden to output delta weight ", delta_weight_h_o, " Shape ", delta_weight_h_o.shape)
+            print("Output Layer Error term ",output_layer_error_term," Shape ",output_layer_error_term.shape)
+            print("Hidden Layer Output ",hidden_layer_input," Shape ",hidden_layer_input.shape)
+            delta_weight_h_o += (output_layer_error_term*hidden_layer_input.T)
+            print("Hidden to output delta weight ", delta_weight_h_o, " Shape ", delta_weight_h_o.shape)
+            print("Weight Hidden to Output ",self.weights_1_2," Shape ",self.weights_1_2.shape)
+            self.weights_1_2 -=delta_weight_h_o * self.learning_rate
+            print("Weight Hidden to Output ", self.weights_1_2, " Shape ", self.weights_1_2.shape)
+
+            delta_weight_i_h = np.zeros((self.input_nodes,self.hidden_nodes))
+            delta_weight_i_h += (hidden_layer_error_term * self.layer_0.T)
+            self.weights_0_1 -= delta_weight_i_h * self.learning_rate
+
+
+
+
 
             # TODO: Implement the forward pass through the network.
             #       That means use the given review to update the input layer,
@@ -332,4 +373,4 @@ class SentimentNetwork:
         #       and `NEGATIVE` otherwise.
         pass
 
-mlp = SentimentNetwork(reviews[0:1],labels[0:1])
+mlp = SentimentNetwork(reviews[0:10],labels[0:10])
