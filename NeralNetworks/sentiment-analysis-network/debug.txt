@@ -1,0 +1,594 @@
+/usr/bin/python3.6 /media/shadat/Education/Projects/DeepLearningNanoDegree/DeepLearningNanoDegreeUdacity/NeralNetworks/sentiment-analysis-network/test.py
+Weight 1_2 [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]
+Input Layer Shape  (1, 701)
+Input to hidden layer weight shape  (701, 10)
+Hidden Layer Input  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Output Layer Input  [[0.]]
+Shape  (1, 1)
+Output Layer output  [[0.5]]
+Shape  (1, 1)
+Actual output  [[1]]
+Shape  (1, 1)
+Output Layer Error  [[-0.5]]
+Shape  (1, 1)
+Output Layer Error Term  [[-0.125]]
+Shape  (1, 1)
+Weight Shape  (10, 1)
+Output Layer Error Term Shape  (1, 1)
+Hidden layer error  [[-0.20304317  0.07646955  0.06602147  0.13412108 -0.10817595  0.28769234
+  -0.21810147  0.09515086 -0.03987989  0.0311713 ]]  Shape  (1, 10)
+Hidden layer error term [[-0.20304317  0.07646955  0.06602147  0.13412108 -0.10817595  0.28769234
+  -0.21810147  0.09515086 -0.03987989  0.0311713 ]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Output Layer Error term  [[-0.125]]  Shape  (1, 1)
+Hidden Layer Output  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
+Input Layer Shape  (1, 701)
+Input to hidden layer weight shape  (701, 10)
+Hidden Layer Input  [[  8.50750884  -3.20407422  -2.76629955  -5.61967316   4.53257246
+  -12.05430892   9.13845162  -3.98682114   1.67096727  -1.30607734]]
+Shape  (1, 10)
+Output Layer Input  [[74.77451552]]
+Shape  (1, 1)
+Output Layer output  [[1.]]
+Shape  (1, 1)
+Actual output  [[0]]
+Shape  (1, 1)
+Output Layer Error  [[1.]]
+Shape  (1, 1)
+Output Layer Error Term  [[0.]]
+Shape  (1, 1)
+Weight Shape  (10, 1)
+Output Layer Error Term Shape  (1, 1)
+Hidden layer error  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Output Layer Error term  [[0.]]  Shape  (1, 1)
+Hidden Layer Output  [[  8.50750884  -3.20407422  -2.76629955  -5.61967316   4.53257246
+  -12.05430892   9.13845162  -3.98682114   1.67096727  -1.30607734]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Progress:20.0% Speed(reviews/sec):127.7 #Correct:2 #Trained:2 Training Accuracy:100.%Input Layer Shape  (1, 701)
+Input to hidden layer weight shape  (701, 10)
+Hidden Layer Input  [[ 45.7456263  -17.22859    -14.87463697 -30.21747882  24.37204236
+  -64.81708355  49.13826131 -21.43748935   8.98493854  -7.0228932 ]]
+Shape  (1, 10)
+Output Layer Input  [[402.06917295]]
+Shape  (1, 1)
+Output Layer output  [[1.]]
+Shape  (1, 1)
+Actual output  [[1]]
+Shape  (1, 1)
+Output Layer Error  [[0.]]
+Shape  (1, 1)
+Output Layer Error Term  [[0.]]
+Shape  (1, 1)
+Weight Shape  (10, 1)
+Output Layer Error Term Shape  (1, 1)
+Hidden layer error  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Output Layer Error term  [[0.]]  Shape  (1, 1)
+Hidden Layer Output  [[ 45.7456263  -17.22859    -14.87463697 -30.21747882  24.37204236
+  -64.81708355  49.13826131 -21.43748935   8.98493854  -7.0228932 ]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Progress:40.0% Speed(reviews/sec):172.7 #Correct:3 #Trained:3 Training Accuracy:100.%Input Layer Shape  (1, 701)
+Input to hidden layer weight shape  (701, 10)
+Hidden Layer Input  [[  93.6232059   -35.26011029  -30.44249937  -61.84322896   49.87993224
+  -132.65493664  100.56658806  -43.87406275   18.3886159   -14.37308502]]
+Shape  (1, 10)
+Output Layer Input  [[822.87658964]]
+Shape  (1, 1)
+Output Layer output  [[1.]]
+Shape  (1, 1)
+Actual output  [[0]]
+Shape  (1, 1)
+Output Layer Error  [[1.]]
+Shape  (1, 1)
+Output Layer Error Term  [[0.]]
+Shape  (1, 1)
+Weight Shape  (10, 1)
+Output Layer Error Term Shape  (1, 1)
+Hidden layer error  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Output Layer Error term  [[0.]]  Shape  (1, 1)
+Hidden Layer Output  [[  93.6232059   -35.26011029  -30.44249937  -61.84322896   49.87993224
+  -132.65493664  100.56658806  -43.87406275   18.3886159   -14.37308502]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Progress:60.0% Speed(reviews/sec):189.5 #Correct:4 #Trained:4 Training Accuracy:100.%Input Layer Shape  (1, 701)
+Input to hidden layer weight shape  (701, 10)
+Hidden Layer Input  [[ 16.95410473  -6.38520757  -5.51279266 -11.19910999   9.03269213
+  -24.02231015  18.21147279  -7.94509703   3.32997057  -2.60280329]]
+Shape  (1, 10)
+Output Layer Input  [[149.01365265]]
+Shape  (1, 1)
+Output Layer output  [[1.]]
+Shape  (1, 1)
+Actual output  [[1]]
+Shape  (1, 1)
+Output Layer Error  [[0.]]
+Shape  (1, 1)
+Output Layer Error Term  [[0.]]
+Shape  (1, 1)
+Weight Shape  (10, 1)
+Output Layer Error Term Shape  (1, 1)
+Hidden layer error  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Output Layer Error term  [[0.]]  Shape  (1, 1)
+Hidden Layer Output  [[ 16.95410473  -6.38520757  -5.51279266 -11.19910999   9.03269213
+  -24.02231015  18.21147279  -7.94509703   3.32997057  -2.60280329]]  Shape  (1, 10)
+Hidden to output delta weight  [[0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]
+ [0.]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Progress:80.0% Speed(reviews/sec):211.3 #Correct:5 #Trained:5 Training Accuracy:100.%
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/usr/bin/python3.6 /media/shadat/Education/Projects/DeepLearningNanoDegree/DeepLearningNanoDegreeUdacity/NeralNetworks/sentiment-analysis-network/test_solution.py
+Hidden Layer input  [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Output Layer input  [[0.5]]
+Shape  (1, 1)
+Output layer error [[-0.5]]
+Shape  (1, 1)
+Output layer error term [[-0.125]]
+Shape  (1, 1)
+Hidden layer error [[-0.20304317  0.07646955  0.06602147  0.13412108 -0.10817595  0.28769234
+  -0.21810147  0.09515086 -0.03987989  0.0311713 ]]
+Shape  (1, 10)
+Hidden layer error term [[-0.20304317  0.07646955  0.06602147  0.13412108 -0.10817595  0.28769234
+  -0.21810147  0.09515086 -0.03987989  0.0311713 ]]
+Shape  (1, 10)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Layer2 [[0.5]]
+Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
+Hidden Layer input  [[  8.50750884  -3.20407422  -2.76629955  -5.61967316   4.53257246
+  -12.05430892   9.13845162  -3.98682114   1.67096727  -1.30607734]]
+Shape  (1, 10)
+Output Layer input  [[1.]]
+Shape  (1, 1)
+Output layer error [[1.]]
+Shape  (1, 1)
+Output layer error term [[0.]]
+Shape  (1, 1)
+Hidden layer error [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Layer2 [[1.]]
+Progress:20.0% Speed(reviews/sec):185.3 #Correct:1 #Trained:2 Training Accuracy:50.0%Hidden Layer input  [[ 45.7456263  -17.22859    -14.87463697 -30.21747882  24.37204236
+  -64.81708355  49.13826131 -21.43748935   8.98493854  -7.0228932 ]]
+Shape  (1, 10)
+Output Layer input  [[1.]]
+Shape  (1, 1)
+Output layer error [[0.]]
+Shape  (1, 1)
+Output layer error term [[0.]]
+Shape  (1, 1)
+Hidden layer error [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Layer2 [[1.]]
+Progress:40.0% Speed(reviews/sec):262.4 #Correct:2 #Trained:3 Training Accuracy:66.6%Hidden Layer input  [[  93.6232059   -35.26011029  -30.44249937  -61.84322896   49.87993224
+  -132.65493664  100.56658806  -43.87406275   18.3886159   -14.37308502]]
+Shape  (1, 10)
+Output Layer input  [[1.]]
+Shape  (1, 1)
+Output layer error [[1.]]
+Shape  (1, 1)
+Output layer error term [[0.]]
+Shape  (1, 1)
+Hidden layer error [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Layer2 [[1.]]
+Progress:60.0% Speed(reviews/sec):290.5 #Correct:2 #Trained:4 Training Accuracy:50.0%Hidden Layer input  [[ 16.95410473  -6.38520757  -5.51279266 -11.19910999   9.03269213
+  -24.02231015  18.21147279  -7.94509703   3.32997057  -2.60280329]]
+Shape  (1, 10)
+Output Layer input  [[1.]]
+Shape  (1, 1)
+Output layer error [[0.]]
+Shape  (1, 1)
+Output layer error term [[0.]]
+Shape  (1, 1)
+Hidden layer error [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Hidden layer error term [[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+Shape  (1, 10)
+Weight Hidden to Output  [[ 1.62434536]
+ [-0.61175641]
+ [-0.52817175]
+ [-1.07296862]
+ [ 0.86540763]
+ [-2.3015387 ]
+ [ 1.74481176]
+ [-0.7612069 ]
+ [ 0.3190391 ]
+ [-0.24937038]]  Shape  (10, 1)
+Weight Input to Hidden [[ 0.36547771 -0.13764519 -0.11883864 ... -0.17127155  0.0717838
+  -0.05610833]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ ...
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]
+ [ 0.          0.          0.         ...  0.          0.
+   0.        ]]  Shape  (701, 10)
+Layer2 [[1.]]
+Progress:80.0% Speed(reviews/sec):325.4 #Correct:3 #Trained:5 Training Accuracy:60.0%
+Process finished with exit code 0
+Progress:99.9% Speed(reviews/sec):57.19 #Correct:12000 #Trained:24000 Training Accuracy:50.0%

@@ -180,7 +180,10 @@ class SentimentNetwork:
         self.weights_0_1 = np.zeros((input_nodes, hidden_nodes))
 
         # These are the weights between the hidden layer and the output layer.
-        self.weights_1_2 = np.zeros((hidden_nodes, output_nodes))
+        # self.weights_1_2 = np.zeros((hidden_nodes, output_nodes))
+        self.weights_1_2 = np.random.normal(0.0, self.output_nodes ** -0.5,
+                                            (self.hidden_nodes, self.output_nodes))
+        print("Weight 1_2",self.weights_1_2)
 
         # TODO: Create the input layer, a two-dimensional matrix with shape
         #       1 x input_nodes, with all values initialized to zero
@@ -248,6 +251,8 @@ class SentimentNetwork:
             label = training_labels[i]
             output = np.array(self.get_target_for_label(label))
             output = output.reshape((1,1))
+            # print(review)
+            # print(output)
 
             # print(review)
             # print(label)
@@ -285,6 +290,7 @@ class SentimentNetwork:
             delta_weight_i_h = np.zeros((self.input_nodes,self.hidden_nodes))
             delta_weight_i_h += (hidden_layer_error_term * self.layer_0.T)
             self.weights_0_1 -= delta_weight_i_h * self.learning_rate
+            print("Weight Input to Hidden", self.weights_0_1, " Shape ", self.weights_0_1.shape)
 
 
 
@@ -314,6 +320,12 @@ class SentimentNetwork:
 
             # For debug purposes, print out our prediction accuracy and speed
             # throughout the training process.
+
+            print("Layer2",output_layer_output)
+            if (output_layer_output[0] >= 0.5 and label == 'POSITIVE'):
+                correct_so_far += 1
+            elif (output_layer_output[0] < 0.5 and label == 'NEGATIVE'):
+                correct_so_far += 1
 
             elapsed_time = float(time.time() - start)
             reviews_per_second = i / elapsed_time if elapsed_time > 0 else 0
@@ -373,4 +385,5 @@ class SentimentNetwork:
         #       and `NEGATIVE` otherwise.
         pass
 
-mlp = SentimentNetwork(reviews[0:10],labels[0:10])
+mlp = SentimentNetwork(reviews[:-1000],labels[:-1000], learning_rate=0.1)
+# mlp = SentimentNetwork(reviews[0:5],labels[0:5], learning_rate=0.1)
