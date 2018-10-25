@@ -34,9 +34,10 @@ class SentimentNetwork:
         # Build the network to have the number of hidden nodes and the learning rate that
         # were passed into this initializer. Make the same number of input nodes as
         # there are vocabulary words and create a single output node.
+        print("lenofreviewvocab", len(self.review_vocab))
         self.init_network(len(self.review_vocab), hidden_nodes, 1, learning_rate)
 
-        self.train(reviews, labels)
+        # self.train(reviews, labels)
 
     def pre_process_data(self, reviews, labels):
 
@@ -251,4 +252,5 @@ class SentimentNetwork:
         # else:
         #     return "NEGATIVE"
 mlp = SentimentNetwork(reviews[:-1000],labels[:-1000], learning_rate=0.1)
+mlp.test(reviews[-1000:],labels[-1000:])
 

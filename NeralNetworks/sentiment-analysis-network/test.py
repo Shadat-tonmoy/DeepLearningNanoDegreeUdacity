@@ -117,10 +117,10 @@ class SentimentNetwork:
         # Build the network to have the number of hidden nodes and the learning rate that
         # were passed into this initializer. Make the same number of input nodes as
         # there are vocabulary words and create a single output node.
-        # print(self.review_vocab)
+        # print("lenofreviewvocab",len(self.review_vocab))
         self.init_network(len(self.review_vocab), hidden_nodes, 1, learning_rate)
 
-        self.train(reviews,labels)
+        # self.train(reviews,labels)
 
     def pre_process_data(self, reviews, labels):
 
@@ -201,17 +201,18 @@ class SentimentNetwork:
         #       For example, replace "layer_0 *= 0" with "self.layer_0 *= 0"
 
         # clear out previous state by resetting the layer to be all 0s
+        # print("Layer0Shape",self.layer_0.shape)
         self.layer_0 *= 0
-        word_freq_counter = Counter()
 
+        # print(("Word2Index",self.word2index.shape))
         for word in review.split(" "):
-            word_freq_counter[word] += 1
-            self.layer_0[0][self.word2index[word]] = word_freq_counter[word]
+            if (word in self.word2index.keys()):
+                self.layer_0[0][self.word2index[word]] += 1
         # print(self.word2index)
         # print("TotalWordInReview ",len(review.split(" ")))
         # print(self.layer_0)
-        print("Input Layer Shape ",self.layer_0.shape)
-        print("Input to hidden layer weight shape ",self.weights_0_1.shape)
+        # print("Input Layer Shape ",self.layer_0.shape)
+        # print("Input to hidden layer weight shape ",self.weights_0_1.shape)
 
     def get_target_for_label(self, label):
         # TODO: Copy the code you wrote for get_target_for_label
@@ -233,6 +234,7 @@ class SentimentNetwork:
 
     def train(self, training_reviews, training_labels):
 
+        print(("totalReview",len(training_reviews)," Total Labels ",len(training_labels)))
         # make sure out we have a matching number of reviews and labels
         assert (len(training_reviews) == len(training_labels))
 
@@ -322,7 +324,7 @@ class SentimentNetwork:
             # For debug purposes, print out our prediction accuracy and speed
             # throughout the training process.
 
-            print("Layer2",output_layer_output)
+            # print("Layer2",output_layer_output)
             if (output_layer_output[0] >= 0.5 and label == 'POSITIVE'):
                 correct_so_far += 1
             elif (output_layer_output[0] < 0.5 and label == 'NEGATIVE'):
@@ -391,14 +393,19 @@ class SentimentNetwork:
         # print("Output Layer output ", output_layer_output, "\nShape ", output_layer_output.shape)
         # print("Actual output ", output, "\nShape ", output.shape)
 
+        # TODO: The output layer should now contain a prediction.
+        #       Return `POSITIVE` for predictions greater-than-or-equal-to `0.5`,
+        #       and `NEGATIVE` otherwise.
+
         if (output_layer_output[0] >= 0.5):
             return "POSITIVE"
         else:
             return "NEGATIVE"
-        # TODO: The output layer should now contain a prediction.
-        #       Return `POSITIVE` for predictions greater-than-or-equal-to `0.5`,
-        #       and `NEGATIVE` otherwise.
-        pass
 
-mlp = SentimentNetwork(reviews[:-1000],labels[:-1000], learning_rate=0.1)
+
+
+print(("totalReview",len(reviews)," Total Labels ",len(labels)))
+mlp = SentimentNetwork(reviews[:-1000],labels[:-1000])
 # mlp = SentimentNetwork(reviews[0:5],labels[0:5], learning_rate=0.1)
+# mlp.test(reviews[-1000:],labels[-1000:])
+mlp.train(reviews[:-1000],labels[:-1000])

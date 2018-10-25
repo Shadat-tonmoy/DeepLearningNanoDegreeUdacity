@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c25eff-3800-4bb6-b245-cd19eb6e052e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/.ipynb_checkpoints/Sentiment_Classification_Projects-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/.ipynb_checkpoints/Sentiment_Classification_Projects-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Projects.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Projects.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Solutions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Solutions.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/test_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/test_solution.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,26 +52,27 @@
     <session id="91382450">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4687" />
+          <entry key="py" value="4868" />
           <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="4687" />
+          <entry key="Python" value="4868" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/debug.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="589" column="33" lean-forward="true" selection-start-line="589" selection-start-column="33" selection-end-line="589" selection-end-column="33" />
+            <state relative-caret-position="8835">
+              <caret line="589" column="33" selection-start-line="589" selection-start-column="33" selection-end-line="589" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -118,8 +124,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1556">
-              <caret line="393" column="31" selection-start-line="393" selection-start-column="31" selection-end-line="393" selection-end-column="31" />
+            <state relative-caret-position="446">
+              <caret line="410" column="39" selection-start-line="410" selection-start-column="39" selection-end-line="410" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -130,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/test_solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="251" selection-end-column="31" />
+            <state relative-caret-position="225">
+              <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -206,35 +212,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NeralNetworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeralNetworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NeralNetworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeralNetworks" type="462c0819:PsiDirectoryNode" />
-              <item name="backpropagationInAdmissionData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NeralNetworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeralNetworks" type="462c0819:PsiDirectoryNode" />
-              <item name="firstNeuralNetwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NeralNetworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeralNetworks" type="462c0819:PsiDirectoryNode" />
-              <item name="sentiment-analysis-network" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv" />
@@ -260,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_solution">
+  <component name="RunManager" selected="Python.test (1)">
     <configuration name="backprop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NeralNetworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -375,8 +353,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_solution" />
         <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test_solution" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.my_answers" />
         <item itemvalue="Python.backprop" />
@@ -414,7 +392,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5595238" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35884354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -519,6 +497,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/debug.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8835">
+          <caret line="589" column="33" selection-start-line="589" selection-start-column="33" selection-end-line="589" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/07.Backpropagation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -536,17 +521,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/debug.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="589" column="33" lean-forward="true" selection-start-line="589" selection-start-column="33" selection-end-line="589" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/test_solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="248" column="8" selection-start-line="248" selection-start-column="8" selection-end-line="251" selection-end-column="31" />
+        <state relative-caret-position="225">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -555,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1556">
-          <caret line="393" column="31" selection-start-line="393" selection-start-column="31" selection-end-line="393" selection-end-column="31" />
+        <state relative-caret-position="446">
+          <caret line="410" column="39" selection-start-line="410" selection-start-column="39" selection-end-line="410" selection-end-column="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
