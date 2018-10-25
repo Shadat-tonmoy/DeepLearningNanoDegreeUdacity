@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c25eff-3800-4bb6-b245-cd19eb6e052e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/.ipynb_checkpoints/Sentiment_Classification_Projects-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/.ipynb_checkpoints/Sentiment_Classification_Projects-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Projects.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Projects.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Solutions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/Sentiment_Classification_Solutions.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentiment-analysis-network/test_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/sentiment-analysis-network/test_solution.py" afterDir="false" />
-    </list>
+    <list default="true" id="59c25eff-3800-4bb6-b245-cd19eb6e052e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +45,7 @@
     <session id="91382450">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -124,7 +117,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
+            <state relative-caret-position="254">
               <caret line="410" column="39" selection-start-line="410" selection-start-column="39" selection-end-line="410" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -385,7 +378,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24497394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -398,7 +390,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3265306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3265306" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32993197" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -533,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sentiment-analysis-network/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
+        <state relative-caret-position="254">
           <caret line="410" column="39" selection-start-line="410" selection-start-column="39" selection-end-line="410" selection-end-column="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
