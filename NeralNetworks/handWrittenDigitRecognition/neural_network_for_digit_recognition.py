@@ -78,7 +78,7 @@ def train_neural_network(x):
 
     prediction = neural_network_model(x) # getting the predicted value for the input data  x
 
-    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(prediction,y)) # cross entropy with logits is cost function to
+    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(labels=y,logits=prediction)) # cross entropy with logits is cost function to
     # calculate the difference between the prediction and  the known label in the dataset. Boths are in one hot format
 
     optimizer = tf.train.AdamOptimizer().minimize(cost) # using adam optimizer minimize the cost
@@ -86,7 +86,7 @@ def train_neural_network(x):
     num_of_epochs = 10      # number of epoch
 
     with tf.Session() as sess:
-        sess.run(tf.initialize_all_variables) #start a tf session to perform computatitonal operation
+        sess.run(tf.initialize_all_variables()) #start a tf session to perform computatitonal operation
 
         for epoch in range(num_of_epochs): #looping through each epoch to train the network
             epoch_loss = 0
@@ -95,7 +95,7 @@ def train_neural_network(x):
             for _ in range(int(mnist.train.num_examples/batch_size)):
                 # getting the splitted training example with label. These preprocessing is already done by mnist. Real world data need to be preprocessed.
                 epoch_x,epoch_y = mnist.train.next_batch(batch_size)
-                _,c = sess.run([optimizer,cost],free_dict={x:epoch_x,y:epoch_y})
+                _,c = sess.run([optimizer,cost],feed_dict={x:epoch_x,y:epoch_y})
                 #adding the cost denoted by c to epoch loss after each epoch
                 epoch_loss += c
             print("Epoch ",epoch,' Completed out of ',num_of_epochs,' Epoch Loss ',epoch_loss)
