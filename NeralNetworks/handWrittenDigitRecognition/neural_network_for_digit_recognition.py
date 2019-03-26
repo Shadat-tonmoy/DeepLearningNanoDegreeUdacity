@@ -70,7 +70,7 @@ def neural_network_model(data):
     layer_3 = tf.add(tf.matmul(layer_2,hidden_layer_3['weights']),hidden_layer_3['biases'])
     layer_3 = tf.nn.relu(layer_3)
 
-    output= tf.add(tf.matmul(layer_3,output_layer['weights']),output_layer['biases'])
+    output = tf.add(tf.matmul(layer_3,output_layer['weights']),output_layer['biases'])
 
     return output
 
@@ -95,7 +95,8 @@ def train_neural_network(x):
             for _ in range(int(mnist.train.num_examples/batch_size)):
                 # getting the splitted training example with label. These preprocessing is already done by mnist. Real world data need to be preprocessed.
                 epoch_x,epoch_y = mnist.train.next_batch(batch_size)
-                _,c = sess.run([optimizer,cost],feed_dict={x:epoch_x,y:epoch_y})
+                c,_ = sess.run([cost,optimizer],feed_dict={x:epoch_x,y:epoch_y})
+
                 #adding the cost denoted by c to epoch loss after each epoch
                 epoch_loss += c
             print("Epoch ",epoch,' Completed out of ',num_of_epochs,' Epoch Loss ',epoch_loss)
