@@ -1,6 +1,5 @@
 import numpy as np
-from firstNeuralNetwork.my_answers import NeuralNetwork
-from firstNeuralNetwork.actual_answer import NeuralNetworkAnswer
+from projects.firstNeuralNetwork.my_answers import NeuralNetwork
 
 inputs = np.array([[0.5, -0.2, 0.1]])
 targets = np.array([[0.4]])

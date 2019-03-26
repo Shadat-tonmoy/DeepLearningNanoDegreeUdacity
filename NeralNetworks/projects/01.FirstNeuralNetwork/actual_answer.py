@@ -86,7 +86,7 @@ class NeuralNetworkAnswer(object):
         return final_outputs, hidden_outputs
 
     def backpropagation(self, final_outputs, hidden_outputs, X, y, delta_weights_i_h, delta_weights_h_o):
-        ''' Implement backpropagation
+        ''' Implement 03.Backpropagation
 
             Arguments
             ---------
