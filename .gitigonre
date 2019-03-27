@@ -1,2 +1,4 @@
 .idea
 NeuralNetworks/*.txt
+
+NeuralNetworks/projects/03.SentimentAnalysisWithNeuralNetwork/*.txt
