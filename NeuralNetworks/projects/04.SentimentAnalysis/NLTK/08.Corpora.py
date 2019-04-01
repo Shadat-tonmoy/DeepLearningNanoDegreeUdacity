@@ -3,7 +3,7 @@ from nltk.tokenize import sent_tokenize
 
 '''
 
-Corpora is basically corpus of Data. NLTK has a bunch of built in data set in its corpus packagge
+Corpora is basically corpus of Data. NLTK has a bunch of built in data set in its corpus package
 
 '''
 
