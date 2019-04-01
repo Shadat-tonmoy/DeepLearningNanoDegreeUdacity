@@ -46,12 +46,26 @@ def find_features(document):                    # function to find features from
 
     return features
 
-print(find_features(list(movie_reviews.words('neg/cv000_29416.txt'))))    # testing the find feature function
+# print(find_features(list(movie_reviews.words('neg/cv000_29416.txt'))))    # testing the find feature function
 
-feature_set = []
-# for (review, category) in documents:
-#     print(review,category)
-#     feature_set.append((find_features(review),category))
+feature_set = []        # feature set is a list of tuples where each tuple contains a dictionary with the top 3000 words as key
+                        # and True or False as their appearance in the document
+
+for (review, category) in documents:                        # looping through the documents and build the feature set
+    # print(review,category)
+    feature_set.append((find_features(review),category))    # adding elements to the feature set
+
+# print(feature_set)
+
+training_set = feature_set[:1900]
+testing_set = feature_set[1900:]
+
+classifier = nltk.NaiveBayesClassifier.train(training_set)
+
+print("Accuracy : ", nltk.classify.accuracy(classifier,testing_set)*100)
+classifier.show_most_informative_features(15)
+
+
 
 
 
