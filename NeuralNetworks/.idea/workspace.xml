@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c25eff-3800-4bb6-b245-cd19eb6e052e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveByas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveBayes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/08.Corpora.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/08.Corpora.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveByas.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,10 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveByas.py">
+        <entry file="file://$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveBayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="292">
+              <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -142,6 +142,9 @@
       <find>Layer</find>
       <find>Layer2</find>
       <find>NN</find>
+      <find>couples</find>
+      <find>FeaturesWords</find>
+      <find>True</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,6 +189,7 @@
         <option value="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/08.Corpora.py" />
         <option value="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNieveByas.py" />
         <option value="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveByas.py" />
+        <option value="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveBayes.py" />
       </list>
     </option>
   </component>
@@ -359,7 +363,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveByas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveBayes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -416,13 +420,13 @@
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.24497394" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.56677526" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.56677526" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31655845" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3159609" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32993197" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -691,10 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveByas.py">
+    <entry file="file://$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="292">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
