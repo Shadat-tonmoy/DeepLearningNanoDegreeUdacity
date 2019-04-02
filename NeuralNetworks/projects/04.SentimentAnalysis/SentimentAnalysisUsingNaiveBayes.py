@@ -60,7 +60,13 @@ for (review, category) in documents:                        # looping through th
 training_set = feature_set[:1900]
 testing_set = feature_set[1900:]
 
-classifier = nltk.NaiveBayesClassifier.train(training_set)
+# classifier = nltk.NaiveBayesClassifier.train(training_set)
+
+saved_classifier = open("naivebayes.pickle","rb")           # opening the saved classifier in read bytes mood
+classifier = pickle.load(saved_classifier)                  # load the classifier from saved classifier
+saved_classifier.close()                                    # close the saved  classifier file
+
+
 
 print("Accuracy : ", nltk.classify.accuracy(classifier,testing_set)*100)
 classifier.show_most_informative_features(15)
