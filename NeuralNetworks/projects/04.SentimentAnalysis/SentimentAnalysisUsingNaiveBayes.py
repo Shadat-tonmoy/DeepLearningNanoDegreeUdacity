@@ -1,7 +1,7 @@
 import nltk
 import random
 from nltk.corpus import movie_reviews
-
+import pickle
 documents = []
 
 for category in movie_reviews.categories():
@@ -64,6 +64,12 @@ classifier = nltk.NaiveBayesClassifier.train(training_set)
 
 print("Accuracy : ", nltk.classify.accuracy(classifier,testing_set)*100)
 classifier.show_most_informative_features(15)
+
+# save_classifier = open("naivebayes.pickle","wb")    # open a pickle file named naivebayes in write bytes mode to save classifier
+# pickle.dump(classifier,save_classifier)             # dump the classifier module to pickle file
+# save_classifier.close()                             # close pickle file after saving
+
+
 
 
 
