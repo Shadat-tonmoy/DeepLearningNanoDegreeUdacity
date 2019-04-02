@@ -1,6 +1,10 @@
 import nltk
 import random
 from nltk.corpus import movie_reviews
+from nltk.classify.scikitlearn import SklearnClassifier
+from sklearn.naive_bayes import MultinomialNB,GaussianNB,BernoulliNB
+from sklearn.linear_model import LogisticRegression,SGDClassifier
+from sklearn.svm import SVC,NuSVC,LinearSVC
 import pickle
 documents = []
 
@@ -68,12 +72,56 @@ saved_classifier.close()                                    # close the saved  c
 
 
 
-print("Accuracy : ", nltk.classify.accuracy(classifier,testing_set)*100)
+print("NLTK Naive Bayes Alogrithm Accuracy : ", nltk.classify.accuracy(classifier,testing_set)*100)
 classifier.show_most_informative_features(15)
 
 # save_classifier = open("naivebayes.pickle","wb")    # open a pickle file named naivebayes in write bytes mode to save classifier
 # pickle.dump(classifier,save_classifier)             # dump the classifier module to pickle file
 # save_classifier.close()                             # close pickle file after saving
+
+MNB_Classifier = SklearnClassifier(MultinomialNB())
+MNB_Classifier.train(training_set)
+print("Multinomial Naive Bayes Algorithm Accuracy :",nltk.classify.accuracy(MNB_Classifier,testing_set)*100)
+
+# GaussianNB_Classifier = SklearnClassifier(GaussianNB())
+# GaussianNB_Classifier.train(training_set)
+# print("Gaussian Naive Bayes Algorithm Accuracy : ",nltk.classify.accuracy(GaussianNB_Classifier,testing_set)*100)
+
+BernoulliNB_Classifier = SklearnClassifier(BernoulliNB())
+BernoulliNB_Classifier.train(training_set)
+print("Bernoullin Naive Bayes Algorithm Accuracy : ",nltk.classify.accuracy(BernoulliNB_Classifier,testing_set)*100)
+
+
+# LogisticRegression
+# SGDClassifier
+# SVC
+# NuSVC
+# LinearSVC
+
+
+LogisticRegression_Classifier = SklearnClassifier(LogisticRegression())
+LogisticRegression_Classifier.train(training_set)
+print("Logistic Regression Classifier Algorithm Accuracy : ",nltk.classify.accuracy(LogisticRegression_Classifier,testing_set)*100)
+
+SGD_Classifier = SklearnClassifier(SGDClassifier())
+SGD_Classifier.train(training_set)
+print("SGC Classifier Algorithm Accuracy : ",nltk.classify.accuracy(SGD_Classifier,testing_set)*100)
+
+SVC_Classifier = SklearnClassifier(SVC())
+SVC_Classifier.train(training_set)
+print("SVC Classifier Algorithm Accuracy : ",nltk.classify.accuracy(SVC_Classifier,testing_set)*100)
+
+
+NuSVC_Classifier = SklearnClassifier(NuSVC())
+NuSVC_Classifier.train(training_set)
+print("NuSVC Classifier Algorithm Accuracy : ",nltk.classify.accuracy(NuSVC_Classifier,testing_set)*100)
+
+LinearSVC_Classifier = SklearnClassifier(LinearSVC())
+LinearSVC_Classifier.train(training_set)
+print("LinearSVC Classifier Algorithm Accuracy : ",nltk.classify.accuracy(LinearSVC_Classifier,testing_set)*100)
+
+
+
 
 
 
