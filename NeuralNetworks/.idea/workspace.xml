@@ -2,9 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c25eff-3800-4bb6-b245-cd19eb6e052e" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/PreprocessDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/04.SentimentAnalysis/PreprocessDataset.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/NeuralNetworks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/01.AND Perceptron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/02.OR and NOT Perceptron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/03.SigmoidFunction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/04.Simple Neural Network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/05.Gradient Decent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/06.Multilayer Perceptron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/07.Backpropagation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/.idea/gradientDecentInAdmissionData.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/binary.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/data_prep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/gradientDecentInAdmissionData/gradient_decent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/01. BasicsOfNeuralNetworks/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/02.Multilayer perceptron/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/02.Multilayer perceptron/multilayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/02.Multilayer perceptron/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/backprop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/backpropagationInAdmissionData/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/backpropagationInAdmissionData/backprop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/backpropagationInAdmissionData/binary.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/backpropagationInAdmissionData/data_prep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/03.Backpropagation/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/.ipynb_checkpoints/Your_first_neural_network-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/.udacity-pa/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/.udacity-pa/projects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/Bike-Sharing-Dataset/day.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/Bike-Sharing-Dataset/hour.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/Your_first_neural_network.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/actual_answer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/assets/neural_network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/my_answers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/01.FirstNeuralNetwork/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/neural_network_for_digit_recognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/tensorflowBasics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/tensorflowBasics/hello_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/tmp/data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/tmp/data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/tmp/data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/02.HandWrittenDigitRecognition/tmp/data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/.ipynb_checkpoints/Sentiment_Classification_Projects-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/.ipynb_checkpoints/Sentiment_Classification_Solutions-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/Sentiment_Classification_Projects.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/Sentiment_Classification_Solutions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/sentiment_network.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/sentiment_network_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/sentiment_network_pos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/sentiment_network_sparse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/sentiment_network_sparse_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/03.SentimentAnalysisWithNeuralNetwork/test_solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/01.Intro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/02.StopWords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/03.Stemming.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/04.POSTagging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/05.Chunking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/06.NamedEntityRecognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/07.Lemmatizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/08.Corpora.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/PreprocessDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisUsingNaiveBayes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/SentimentAnalysisWithNeuralNetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/dataset/neg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/dataset/pos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/04.SentimentAnalysis/naivebayes.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/python2.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/include/python2.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/UserDict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/_abcoll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/_weakrefset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/codecs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/copy_reg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/encodings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/fnmatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/genericpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/lib-dynload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/linecache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/locale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/ntpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/os.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/posixpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/site.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre_compile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre_constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/sre_parse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/stat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python2.7/warnings.py" beforeDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +165,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/04.SentimentAnalysis/PreprocessDataset.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="285">
               <caret line="67" column="104" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
+=======
+            <state relative-caret-position="207">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -223,12 +344,6 @@
               <item name="NeuralNetworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="NeuralNetworks" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="02.HandWrittenDigitRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NeuralNetworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NeuralNetworks" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
               <item name="04.SentimentAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -267,28 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SentimentAnalysisUsingNieveByas">
-    <configuration name="05.Chunking" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NeuralNetworks" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/04.SentimentAnalysis/NLTK/05.Chunking.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.PreprocessDataset">
     <configuration name="06.NamedEntityRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NeuralNetworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,6 +446,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="PreprocessDataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NeuralNetworks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projects/04.SentimentAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projects/04.SentimentAnalysis/PreprocessDataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SentimentAnalysisUsingNieveByas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NeuralNetworks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,19 +489,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.05.Chunking" />
       <item itemvalue="Python.06.NamedEntityRecognition" />
       <item itemvalue="Python.07.Lemmatizer" />
       <item itemvalue="Python.08.Corpora" />
       <item itemvalue="Python.SentimentAnalysisUsingNieveByas" />
+      <item itemvalue="Python.PreprocessDataset" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PreprocessDataset" />
         <item itemvalue="Python.SentimentAnalysisUsingNieveByas" />
         <item itemvalue="Python.08.Corpora" />
         <item itemvalue="Python.07.Lemmatizer" />
         <item itemvalue="Python.06.NamedEntityRecognition" />
-        <item itemvalue="Python.05.Chunking" />
       </list>
     </recent_temporary>
   </component>
@@ -414,20 +529,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" weight="0.24497394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50162864" side_tool="true" weight="0.24497394" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.95114005" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32767403" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9490662" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996277" weight="0.3159609" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4996277" visible="true" weight="0.31578946" />
+>>>>>>> Stashed changes
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003723" side_tool="true" weight="0.3159609" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32993197" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -725,8 +843,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/04.SentimentAnalysis/PreprocessDataset.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="285">
           <caret line="67" column="104" selection-start-line="67" selection-start-column="104" selection-end-line="67" selection-end-column="104" />
+=======
+        <state relative-caret-position="207">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

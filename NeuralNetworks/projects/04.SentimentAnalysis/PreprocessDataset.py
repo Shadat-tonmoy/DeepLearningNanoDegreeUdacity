@@ -11,6 +11,11 @@ lemmitizer = WordNetLemmatizer()                                # nltk library f
 num_of_lines = 10000000
 
 def createLexicon(data_set):                                    # function to create lexicon that is the most common words available in the dataset
+    '''
+
+    :param data_set:
+    :return final_lexicon:
+    '''
     lexicon = []                                                # empty list of lexicon
     final_lexicon = []                                          # list of final most common words
     for file in data_set:                                       # looping through all the files in the dataset
@@ -27,6 +32,9 @@ def createLexicon(data_set):                                    # function to cr
         if 1000 > word_counts[word] > 50:                       # take only the words with frequency more then 50 and less then 1000
             final_lexicon.append(word)                          # adding the matched word into the final lexicon list
 
+    print("Size of lexicon ",len(final_lexicon))
+
+    return final_lexicon
 
 
 def handleSampleData(sampleData, lexicon, classification):      # function to preprocess the sample data based on the lexicon available
@@ -41,7 +49,7 @@ def handleSampleData(sampleData, lexicon, classification):      # function to pr
     :param sampleData:
     :param lexicon:
     :param classification:
-    :return:
+    :return featureSet:
     '''
 
     featureSet = []                                                             # empty list of feature for this current sample data
@@ -67,31 +75,38 @@ def handleSampleData(sampleData, lexicon, classification):      # function to pr
 
     return featureSet                                                           # returning the feature set
 
+def createFeatureSetAndLabel(dataset,test_size = 0.1):                          # function to merge all the function defined previously to built feature and label from dataset
 
-def createFeatureSetAndLabel(dataset,test_size = 0.1):
-    lexicon = createLexicon(dataset)
+    lexicon = createLexicon(dataset)                                            # create list of lexicon from the given dataset
 
-    features = []
+    features = []                                                               # empty list of features and label from all the dataset
 
-    features+=handleSampleData('dataset/pos.txt', lexicon, [1, 0])
-    features+=handleSampleData('dataset/neg.txt', lexicon, [0, 1])
+    features+=handleSampleData('dataset/pos.txt', lexicon, [1, 0])              # adding features and labels from positive sentiment dataset into features list
+    features+=handleSampleData('dataset/neg.txt', lexicon, [0, 1])              # adding features and labels from negative sentiment dataset into features list
 
-    random.shuffle(features)
+    random.shuffle(features)                                                    # shuffle the features to train the model with more random data
 
-    testing_size = int(test_size*len(features))
+    features = np.array(features)                                               # converting the features list into numpy array
 
-    features = np.array(features)
+    testing_size = int(test_size*len(features))                                 # getting the actual size of test data from the features list size
 
-    train_x = list(features[:, 0][:-testing_size])
+    train_x = list(features[:, 0][:-testing_size])                              # extracting the training data samples from the features set. [:,0] means getting the 0th element
+                                                                                # from all the elements of the list. 0th element is the list of features for all the data. Here -
+                                                                                # indicates the indexes of last testing sizes
+    train_y = list(features[:, 1][:-testing_size])                              # extracting the training label samples from the features set. [:,1] means getting the 1th element
+                                                                                # from all the elements of the list. 1th element is the list of labels for all the data.
+    test_x = list(features[:, 0][-testing_size:])                               # extracting the test data
 
-    train_y = list(features[:, 1][:-testing_size])
-
-    test_x = list(features[:, 0][-testing_size:])
-
-    test_y = list(features[:, 1][-testing_size:])
+    test_y = list(features[:, 1][-testing_size:])                               # extracting the test labels
 
     return train_x,train_y,test_x,test_y
 
+
+# if __name__ == 'main':
+
+train_x,train_y,test_x,test_y = createFeatureSetAndLabel(['dataset/pos.txt','dataset/neg.txt'])
+with open("output/sentiment_analysis.pickle","wb") as f:
+    pickle.dump([train_x,train_y,test_x,test_y],f)
 
 
 

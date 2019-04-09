@@ -1,3 +1,5 @@
 .idea
 *.txt
 NeuralNetworks/projects/03.SentimentAnalysisWithNeuralNetwork/*.txt
+NeuralNetworks/projects/04.SentimentAnalysis/dataset/*.txt
+NeuralNetworks/projects/04.SentimentAnalysis/output/*.pickle
