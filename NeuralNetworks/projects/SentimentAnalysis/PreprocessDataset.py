@@ -10,6 +10,7 @@ lemmitizer = WordNetLemmatizer()                                # nltk library f
 
 num_of_lines = 10000000
 
+
 def createLexicon(data_set):                                    # function to create lexicon that is the most common words available in the dataset
     '''
 
@@ -102,11 +103,11 @@ def createFeatureSetAndLabel(dataset,test_size = 0.1):                          
     return train_x,train_y,test_x,test_y
 
 
-# if __name__ == 'main':
+if __name__ == 'main':
 
-train_x,train_y,test_x,test_y = createFeatureSetAndLabel(['dataset/pos.txt','dataset/neg.txt'])
-with open("output/sentiment_analysis.pickle","wb") as f:
-    pickle.dump([train_x,train_y,test_x,test_y],f)
+    train_x,train_y,test_x,test_y = createFeatureSetAndLabel(['dataset/pos.txt','dataset/neg.txt'])
+    with open("output/sentiment_analysis.pickle","wb") as f:
+        pickle.dump([train_x,train_y,test_x,test_y],f)
 
 
 
