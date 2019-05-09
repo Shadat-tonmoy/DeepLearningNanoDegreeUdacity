@@ -36,7 +36,7 @@ class Node(object):
 
 '''
 
-**  Input nodes are special nodes that has no input that is it does not require inbound nodes.
+**  Input nodes are special nodes that has no input that is, it does not require inbound nodes.
 **  As Input nodes are Node, so we can extend Node class to implement input class
 **  Input node is the only node where the value may be passed as an argument to forward() method
 **  All other node implementation should get the value of the previous node from self.inbound_nodes
