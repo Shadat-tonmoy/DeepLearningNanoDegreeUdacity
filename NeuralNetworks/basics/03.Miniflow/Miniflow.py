@@ -72,3 +72,9 @@ class Add(Node):
         :return:
         '''
 
+        sum = 0
+
+        for node in self.inbound_nodes:
+            sum += node.value
+        self.value = sum
+
