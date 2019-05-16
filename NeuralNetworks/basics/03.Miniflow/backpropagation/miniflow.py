@@ -152,6 +152,7 @@ class Sigmoid(Node):
             grad_cost = n.gradients[self]
             sigmoid = self.value
             self.gradients[self.inbound_nodes[0]] += (grad_cost * sigmoid * (1-sigmoid))
+            # self.gradients[self.inbound_nodes[0]] += (grad_cost * self._sigmoid(self.inbound_nodes[0].value) * (1-self._sigmoid(self.inbound_nodes[0].value)))
             """
             TODO: Your code goes here!
 
